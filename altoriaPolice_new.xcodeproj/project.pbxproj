@@ -13,6 +13,8 @@
 		997A6BDE221BF52F00683A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997A6BDD221BF52F00683A1A /* Assets.xcassets */; };
 		997A6BE1221BF52F00683A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997A6BDF221BF52F00683A1A /* LaunchScreen.storyboard */; };
 		997A6BEC221BF52F00683A1A /* altoriaPolice_newTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A6BEB221BF52F00683A1A /* altoriaPolice_newTests.swift */; };
+		997A6BF722226ED600683A1A /* CustomVisionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A6BF622226ED600683A1A /* CustomVisionResult.swift */; };
+		997A6BF92222737F00683A1A /* CustomVisionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A6BF82222737F00683A1A /* CustomVisionService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		997A6BE7221BF52F00683A1A /* altoriaPolice_newTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = altoriaPolice_newTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		997A6BEB221BF52F00683A1A /* altoriaPolice_newTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = altoriaPolice_newTests.swift; sourceTree = "<group>"; };
 		997A6BED221BF52F00683A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997A6BF622226ED600683A1A /* CustomVisionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVisionResult.swift; sourceTree = "<group>"; };
+		997A6BF82222737F00683A1A /* CustomVisionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVisionService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				997A6BDD221BF52F00683A1A /* Assets.xcassets */,
 				997A6BDF221BF52F00683A1A /* LaunchScreen.storyboard */,
 				997A6BE2221BF52F00683A1A /* Info.plist */,
+				997A6BF622226ED600683A1A /* CustomVisionResult.swift */,
+				997A6BF82222737F00683A1A /* CustomVisionService.swift */,
 			);
 			path = altoriaPolice_new;
 			sourceTree = "<group>";
@@ -197,6 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				997A6BF92222737F00683A1A /* CustomVisionService.swift in Sources */,
+				997A6BF722226ED600683A1A /* CustomVisionResult.swift in Sources */,
 				997A6BD9221BF52E00683A1A /* ViewController.swift in Sources */,
 				997A6BD7221BF52E00683A1A /* AppDelegate.swift in Sources */,
 			);
