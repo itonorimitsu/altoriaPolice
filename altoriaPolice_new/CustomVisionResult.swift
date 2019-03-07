@@ -40,8 +40,8 @@ struct CustomVisionResult{
     
     public init(json: [String: Any])throws{
         //このパースではnilが出力される
-        let id = json["id"] as? String
         print(json)
+        let id = json["id"] as? String
         let project = json["project"] as? String
         let iteration = json["iteration"] as? String
         let created = json["created"] as? String

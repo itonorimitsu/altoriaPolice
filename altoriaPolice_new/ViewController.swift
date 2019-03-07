@@ -50,9 +50,17 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 if let error = error {
                     self.resultLabel.text = error.localizedDescription
                 }else if let result = result{
-                    let prediction = result.Predictions[0]
-                    let probabilityLabel = String(format: "%.1f", prediction.Probability * 100)
-                    self.resultLabel.text = "\(probabilityLabel)% sure this is \(prediction.Tag)"
+                    var resulttext = ""
+                    for i in result.Predictions{
+//                        let prediction = result.Predictions[0]
+                        let prediction = i
+                        let probabilityLabel = String(format: "%.1f", prediction.Probability * 100)
+                        resulttext += "\(probabilityLabel)% sure this is \(prediction.Tag)\n"
+                        //文字列の作成後にlabelに追加の手順で
+                    }
+                    print(resulttext)
+                    self.resultLabel.text = resulttext
+
                 }
             }
         })
